@@ -5,7 +5,7 @@ const Layout = ({props, children})=>{
         <>
         <Meta/>
         <NavItems/>
-        <main>
+        <main className="pt_50px">
             {children}
         </main>
         </>
