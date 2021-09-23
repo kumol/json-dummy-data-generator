@@ -1,29 +1,12 @@
 .container {
-  height: 68px;
+  height: 55px;
   width: 100%;
-  background-color: aqua;
+  background-color: #ffffff;
+  position: fixed;
+  border-bottom: 4px solid #eee;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #111;
+.ul2 {
+  list-style: none;
+  margin: auto !important;
 }
